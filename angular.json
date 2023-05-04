@@ -166,6 +166,6 @@
           }
         }
       }
-    }},
-  "defaultProject": "ngx-gallery"
+    }
+  }
 }
