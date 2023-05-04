@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { NgModule } from '@angular/core';
+import { NgModule, Injectable } from '@angular/core';
 import { HammerGestureConfig, HAMMER_GESTURE_CONFIG } from '@angular/platform-browser';
 import { NgxGalleryActionComponent } from './ngx-gallery-action.component';
 import { NgxGalleryArrowsComponent } from './ngx-gallery-arrows.component';
@@ -26,6 +26,7 @@ export * from './ngx-gallery-preview.component';
 export * from './ngx-gallery-thumbnails.component';
 export * from './ngx-gallery.component';
 
+@Injectable()
 export class CustomHammerConfig extends HammerGestureConfig {
   overrides = {
     pinch: { enable: false },

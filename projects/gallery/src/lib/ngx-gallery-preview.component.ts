@@ -159,7 +159,7 @@ export class NgxGalleryPreviewComponent implements OnInit, OnDestroy, OnChanges 
   @Output() closed = new EventEmitter();
   @Output() activeChange = new EventEmitter<number>();
 
-  @ViewChild('previewImage', { static: false }) previewImage: ElementRef;
+  @ViewChild('previewImage') previewImage: ElementRef;
 
   private isOpen = false;
   private timer;
