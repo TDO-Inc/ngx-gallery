@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/ng-packagr/package.schema.json",
-  "name": "@nomadreservations/ngx-gallery",
+  "name": "@tdo/ngx-gallery",
   "version": "0.1.5",
   "scripts": {
     "ng": "ng",
