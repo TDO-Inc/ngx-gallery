@@ -2,7 +2,11 @@
   "$schema": "./node_modules/ng-packagr/package.schema.json",
   "name": "@tdo-inc/ngx-gallery",
   "version": "0.2.0",
-  "scripts": {
+  "repository": "git@github.com:TDO-Inc/ngx-gallery",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+    "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
@@ -56,10 +60,6 @@
     "tslint": "~6.1.0",
     "typescript": "~4.9.5",
     "zone.js": "~0.11.8"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/TDO-Inc/ngx-gallery.git"
   },
   "config": {
     "commitizen": {
