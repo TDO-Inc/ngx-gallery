@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/ng-packagr/package.schema.json",
-  "name": "@tdo/ngx-gallery",
+  "name": "@tdo-inc/ngx-gallery",
   "version": "0.2.0",
   "scripts": {
     "ng": "ng",
@@ -59,7 +59,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nomadreservations/ngx-gallery.git"
+    "url": "https://github.com/TDO-Inc/ngx-gallery.git"
   },
   "config": {
     "commitizen": {

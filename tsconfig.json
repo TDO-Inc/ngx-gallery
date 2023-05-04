@@ -19,10 +19,10 @@
       "dom"
     ],
     "paths": {
-      "@nomadreservations/ngx-gallery": [
+      "@tdo-inc/ngx-gallery": [
         "projects/gallery/src"
       ],
-      "@nomadreservations/ngx-gallery/*": [
+      "@tdo-inc/ngx-gallery/*": [
         "projects/gallery/src/*"
       ]
     },

@@ -7,7 +7,7 @@ import {
   NgxGalleryImageSize,
   NgxGalleryLayout,
   NgxGalleryOrder
-} from '@nomadreservations/ngx-gallery';
+} from '@tdo-inc/ngx-gallery';
 import 'hammerjs';
 import { LoremIpsum } from 'lorem-ipsum';
 import { Observable, of } from 'rxjs';
