@@ -1,5 +1,5 @@
 import { async, TestBed } from '@angular/core/testing';
-import { NgxGalleryModule } from '@nomadreservations/ngx-gallery';
+import { NgxGalleryModule } from '@tdo-inc/ngx-gallery';
 import { AppComponent } from './app.component';
 import { OptionsViewerComponent } from './options-viewer/options-viewer.component';
 

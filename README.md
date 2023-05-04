@@ -1,8 +1,8 @@
-[![npm version](https://img.shields.io/npm/v/@nomadreservations/ngx-gallery.svg)](https://www.npmjs.com/package/@nomadreservations/ngx-gallery)
-[![Downloads](https://img.shields.io/npm/dm/@nomadreservations/ngx-gallery.svg)](https://www.npmjs.com/package/@nomadreservations/ngx-gallery)
-[![licence](https://img.shields.io/npm/l/@nomadreservations/ngx-gallery.svg)](https://www.npmjs.com/package/@nomadreservations/ngx-gallery)
-[![Build Status](https://travis-ci.org/nomadreservations/ngx-gallery.svg?branch=master)](https://travis-ci.org/nomadreservations/ngx-gallery)
-[![Coverage Status](https://coveralls.io/repos/github/nomadreservations/ngx-gallery/badge.svg?branch=master)](https://coveralls.io/github/nomadreservations/ngx-gallery?branch=master)
+[![npm version](https://img.shields.io/npm/v/@tdo-inc/ngx-gallery.svg)](https://www.npmjs.com/package/@tdo-inc/ngx-gallery)
+[![Downloads](https://img.shields.io/npm/dm/@tdo-inc/ngx-gallery.svg)](https://www.npmjs.com/package/@tdo-inc/ngx-gallery)
+[![licence](https://img.shields.io/npm/l/@tdo-inc/ngx-gallery.svg)](https://www.npmjs.com/package/@tdo-inc/ngx-gallery)
+[![Build Status](https://travis-ci.org/tdo-inc/ngx-gallery.svg?branch=master)](https://travis-ci.org/tdo-inc/ngx-gallery)
+[![Coverage Status](https://coveralls.io/repos/github/tdo-inc/ngx-gallery/badge.svg?branch=master)](https://coveralls.io/github/tdo-inc/ngx-gallery?branch=master)
 
 # NgxGallery
 @angular image gallery plugin
@@ -14,7 +14,7 @@ _This utilizes ng-packagr greater than 5.5.1 to ensure an ivy (@angular 9+ ivy) 
 
 
 # Demo
-[Demo Site](https://nomadreservations.github.io/ngx-gallery/)
+[Demo Site](https://tdo-inc.github.io/ngx-gallery/)
 
 # Prerequisites
 - [Font Awesome](http://fontawesome.io/) (required for icons)
@@ -55,7 +55,7 @@ Angular Material is using `transform: translate3d(0,0,0);` in components styles.
 You can read more about this issue [here](https://github.com/angular/material2/issues/998)
 
 # Installation
-```npm install @nomadreservations/ngx-gallery --save```
+```npm install @tdo-inc/ngx-gallery --save```
 
 # NgxGalleryOptions
 
@@ -208,7 +208,7 @@ export class AppModule { }
 ````ts
 // app.component.ts
 import { Component, OnInit } from '@angular/core';
-import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation } from '@nomadreservations/ngx-gallery';
+import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation } from '@tdo-inc/ngx-gallery';
 ...
 
 @Component({

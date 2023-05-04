@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { NgxGalleryOptions } from '@nomadreservations/ngx-gallery';
+import { NgxGalleryOptions } from '@tdo-inc/ngx-gallery';
 
 @Component({
   // tslint:disable-next-line: component-selector

@@ -1,5 +1,6 @@
-import { ElementRef, HostListener, Injectable, Renderer2 } from '@angular/core';
+import { ElementRef, HostListener, Injectable, Renderer2, Directive } from '@angular/core';
 
+@Directive()
 @Injectable()
 export class NgxGalleryHelperService {
   private swipeHandlers: Map<string, Array<() => void>> = new Map<string, Array<() => void>>();

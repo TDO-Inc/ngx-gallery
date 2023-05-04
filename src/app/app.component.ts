@@ -7,7 +7,7 @@ import {
   NgxGalleryImageSize,
   NgxGalleryLayout,
   NgxGalleryOrder
-} from '@nomadreservations/ngx-gallery';
+} from '@tdo-inc/ngx-gallery';
 import 'hammerjs';
 import { LoremIpsum } from 'lorem-ipsum';
 import { Observable, of } from 'rxjs';
@@ -23,7 +23,7 @@ export class AppComponent implements OnInit {
   examples: Example[];
 
   onlyPreviewExample: Example;
-  @ViewChild('onlyPreviewGallery', { static: false }) onlyPreviewGallery: NgxGalleryComponent;
+  @ViewChild('onlyPreviewGallery') onlyPreviewGallery: NgxGalleryComponent;
 
   buttonsNavigationExample: Example;
   @ViewChild('buttonsNavigationGallery', { static: true }) buttonsNavigationGallery: NgxGalleryComponent;

@@ -1,4 +1,4 @@
-import { NgxGalleryImage, NgxGalleryOptions } from '@nomadreservations/ngx-gallery';
+import { NgxGalleryImage, NgxGalleryOptions } from '@tdo-inc/ngx-gallery';
 
 export class Example {
   title: string;
