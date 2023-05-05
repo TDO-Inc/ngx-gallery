@@ -1,12 +1,11 @@
 {
-  "$schema": "./node_modules/ng-packagr/package.schema.json",
   "name": "@tdo-inc/ngx-gallery",
   "version": "0.2.0",
   "repository": "git@github.com:TDO-Inc/ngx-gallery",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
-    "scripts": {
+  "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
@@ -22,7 +21,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@angular-devkit/build-angular": "^15.2.8",
+    "@angular-devkit/build-angular": "^0.1002.1",
     "@angular/animations": "^15.2.9",
     "@angular/cli": "^15.2.8",
     "@angular/common": "^15.2.9",
@@ -34,7 +33,7 @@
     "@angular/platform-browser": "^15.2.9",
     "@angular/platform-browser-dynamic": "^15.2.9",
     "@angular/router": "^15.2.9",
-    "@commitlint/cli": "^8.2.0",
+    "@commitlint/cli": "^17.6.3",
     "@commitlint/config-conventional": "^8.2.0",
     "@types/jasmine": "~3.4.5",
     "@types/jasminewd2": "~2.0.8",
@@ -53,7 +52,7 @@
     "lorem-ipsum": "^2.0.3",
     "ng-packagr": "^15.2.2",
     "ngx-lorem-ipsum": "^0.1.1",
-    "protractor": "~7.0.0",
+    "protractor": "^3.3.0",
     "release-it": "^12.4.3",
     "rxjs": "~6.5.3",
     "ts-node": "~8.4.1",
